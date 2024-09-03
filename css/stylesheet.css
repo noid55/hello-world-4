@@ -16,3 +16,22 @@ p.centerH1 {
     text-align: right;
     color: yellowgreen;
 }
+
+.secondPara {
+    color: black;
+    margin-left: 20%;
+    margin-right: 20%;
+    float: left;
+}
+
+.stockPhoto1{
+    float: right;
+}
+
+h1 { 
+    background-color: blue;
+}
+
+h2 {
+    border: 2px solid tomato;
+}
