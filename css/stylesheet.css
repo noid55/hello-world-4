@@ -6,3 +6,13 @@ p {
     color: red;
     text-align: center;
 }
+
+#nonCenter {
+    text-align: right;
+    color: green;
+}
+
+p.centerH1 {
+    text-align: right;
+    color: yellowgreen;
+}
