@@ -3,10 +3,7 @@ body {
     margin: 12px;
 }
 
-p {
-    color: red;
-    text-align: center;
-}
+
 
 #nonCenter {
     text-align: right;
@@ -24,8 +21,7 @@ p.centerH1 {
     margin: 12px;
     padding: 2em;
     /* display:inline; */
-    
-    
+
 }
 
 .stockPhoto1{
@@ -46,8 +42,13 @@ h1 {
     text-align: center;
     font-size: 50px;
 }
+
+h2 {
+    text-align: center;
+}
+
 nav{
-    background: rgb(53, 119, 173, 0.5);
+    background-color: rgb(68, 141, 201);
     border-radius: 12px;
     /* padding: 8px; */
     font-size: 30px;
@@ -94,14 +95,11 @@ nav{
 }
 
 .selected{
-    background-color: rgb(53, 119, 173, 0.5);
-}
-h2 {
-    border: 2px solid tomato;
+    background-color: rgba(50, 110, 158);
 }
 
 div {
-    background-color: rgb(53, 119, 173, 0.5);
+    background-color: rgb(68, 141, 201);
     border-radius: 12px;
     margin: 12px;
 }
