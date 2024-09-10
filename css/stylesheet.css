@@ -22,6 +22,7 @@ p.centerH1 {
 .secondPara {
     color: black;
     margin: 12px;
+    padding: 2em;
     /* display:inline; */
     
     
@@ -29,19 +30,72 @@ p.centerH1 {
 
 .stockPhoto1{
     border-radius: 12px;
+    
     /* display: inline; */
 }
 
 h1 { 
-    background-color: rgb(53, 119, 173);
+    /* background-color: rgb(53, 119, 173); */
     /* opacity: 0.3; */
-    border-style: solid;
+    /* border-style: solid; */
     border-width: 5px;
     border-color: rgb(0, 0, 0);
     border-radius: 12px;
     margin-bottom: 50px;
+    padding: 25px;
+    text-align: center;
+    font-size: 50px;
+}
+nav{
+    background: rgb(53, 119, 173, 0.5);
+    border-radius: 12px;
+    /* padding: 8px; */
+    font-size: 30px;
+    display: flex;
+    text-align: center;
+    order: 4;
+    flex-grow: 4;
+
+}
+.firstNav{
+    color: black;
+    padding: 8px;
+    text-decoration: none;
+    border-color: black;
+    border-width: 3px;
+    border-right-style: solid;
+    flex: inherit;
+}
+.secondNav{
+    color: black;
+    padding: 8px;
+    text-decoration: none;
+    border-color: black;
+    border-width: 3px;
+    border-right-style: solid;
+    flex: inherit;
+}
+.thirdNav{
+    color: black;
+    padding: 8px;
+    text-decoration: none;
+    border-color: black;
+    border-width: 3px;
+    border-right-style: solid;
+    flex: inherit;
+}
+.fourthNav{
+    color: black;
+    padding: 8px;
+    text-decoration: none;
+    border-color: black;
+    border-width: 3px;
+    flex: inherit;
 }
 
+.selected{
+    background-color: rgb(53, 119, 173, 0.5);
+}
 h2 {
     border: 2px solid tomato;
 }
